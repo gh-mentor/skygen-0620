@@ -2,7 +2,7 @@
 
 Instructor: Andrew Scoppa
 
-Emails: v-ascoppa@microsoft.com and andrew.scoppa@atmosera.com
+Emails: v-ascoppa@microsoft.com andrew.scoppa@atmosera.com
 
 GH handle:  andrew-scoppa
 
