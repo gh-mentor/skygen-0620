@@ -8,8 +8,7 @@ GH handle:  andrew-scoppa
 
 ## Materials
 
-[GitBub Copilot Developer](https://github.com/user-attachments/files/15917311/en-v2-github-copilot-developer.pdf)
-
+[GitHub Copilot Developer](https://github.com/user-attachments/files/15917311/en-v2-github-copilot-developer.pdf)
 
 ## Workshop
 
