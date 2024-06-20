@@ -38,10 +38,11 @@ unsigned int fact(unsigned int n) {
  * @return The permutation of n and k.
  * @example perm(5, 3) = 60
  *
- *  */
+ * */
 unsigned int perm(unsigned int n, unsigned int k) {
     unsigned int result = 1;
     for (unsigned int i = n - k + 1; i <= n; ++i) {
         result *= i;
     }
     return result;
+}
