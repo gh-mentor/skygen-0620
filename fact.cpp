@@ -5,9 +5,12 @@
 
 /*
 create a factorial function 'fact' that does not use recursion
+arguments:
+- n: an unsigned integer
+returns:
+- an unsigned integer
 details:
-- takes an unsigned integer 'n' as input
-- returns an unsigned integer
+- uses a for loop to calculate the factorial of n
 */
 
 unsigned int fact(unsigned int n) {
