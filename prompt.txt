@@ -1,0 +1,13 @@
+Given the following:
+
+    Mask: 0b1010
+
+    Array 1: [0b1010, 0b1100]
+    Array 2: [0b0110, 0b0011]
+
+How would you use prompt engineering to generate a transformation procedure that produces the following result?
+
+    Array 1: [0b0010, 0b0110]
+    Array 2: [0b1110, 0b1001]
+
+The solution should be a function that takes the mask and the arrays as arguments.
