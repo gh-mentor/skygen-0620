@@ -3,15 +3,18 @@
 #include <iostream>
 
 
-/*
-create a factorial function 'fact' that does not use recursion
-arguments:
-- n: an unsigned integer
-returns:
-- an unsigned integer
-details:
-- uses a for loop to calculate the factorial of n
-*/
+unsigned int fact(unsigned int n);
+
+
+int main(){
+
+
+    for (unsigned int i = 0; i < 10; ++i) {
+        std::cout << i << "! = " << fact(i) << std::endl;
+    
+    return 0;
+    }
+}
 
 unsigned int fact(unsigned int n) {
     unsigned int result = 1;
