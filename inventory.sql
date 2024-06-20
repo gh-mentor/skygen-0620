@@ -35,28 +35,7 @@ BEGIN
     )
 END
 
--- Create the 'Products' table.
-IF NOT EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'Products')
-BEGIN
-    CREATE TABLE Products (
-        ProductID INT PRIMARY KEY
-        IDENTITY(1,1),
-        ProductName NVARCHAR(50) NOT NULL,
-        CategoryID INT NOT NULL,
-        Price DECIMAL(10, 2) NOT NULL,
-        -- Add a created date column
-        CreatedDate DATETIME DEFAULT GETDATE(),
-        -- Add a modified date column
-        ModifiedDate DATETIME DEFAULT GETDATE(),
-        CONSTRAINT FK_Products_Categories FOREIGN KEY (CategoryID) REFERENCES Categories(CategoryID)
-    )
-END
 
--- Remove all rows from the 'Products' table
-DELETE FROM Products
-
--- Remove all rows from the 'Categories' table
-DELETE FROM Categories
 
 
 
